@@ -57,8 +57,8 @@
 
 ## 📌 Requisitos
 
-- ✅ Servidor Spigot (versão mínima recomendada: 1.16.5)
-- 🔧 Permissão de operador para usar os comandos
+- ✅ Servidor Spigot/Paper (versão mínima recomendada: 1.21.0)
+- 🔧 Permissão de operador ou defina uma permissão no arquivo de config do plugin para usar os comandos
 
 ---
 
