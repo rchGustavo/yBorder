@@ -32,9 +32,9 @@
 
 ## Imagens
 
-![Exemplo da borda](https://cdn.discordapp.com/attachments/1402105484290560112/1402288943818477661/87443D60-F5D9-4B8A-99FD-16EEBF24145E.png?ex=68935ed9&is=68920d59&hm=b12ac895046f93691b15b17b22509bcd893e3e8a0fe4eb116c1a31b4e1ae4dbe&)
+![Exemplo da borda](https://cdn.discordapp.com/attachments/1402105484290560112/1402400001094717490/A36EE136-4891-457A-9CA1-68EEDDF2A976.png?ex=6893c647&is=689274c7&hm=427dbfd62ffcb84fb93f366c8608ac059faa278c3fbc1045208966ac3db1dedc&)
 
-![Ajuste de raio](https://cdn.discordapp.com/attachments/1402105484290560112/1402288436261552260/F89B81E4-4636-4277-BC10-9688C4279420.png?ex=68935e60&is=68920ce0&hm=efd4696cf59e539450f5b507ee9e7ebc213e31a1ac17a347616ee0be388e517a&)
+![Ajuste de raio]()
 
 
 ---
