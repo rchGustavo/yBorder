@@ -39,7 +39,7 @@
 ## 🎥 Vídeo demonstrativo
 
 > Assista uma demonstração do plugin funcionando:
-[![Demo do yBorder](https://img.youtube.com/vi/ID_DO_VIDEO/0.jpg)](https://www.youtube.com/watch?v=ID_DO_VIDEO)
+[![Demo do yBorder](https://img.youtube.com/vi/ID_DO_VIDEO/0.jpg)]([https://www.youtube.com/watch?v=ID_DO_VIDEO](https://youtu.be/S_6UX0-Mqyw))
 
 ---
 
