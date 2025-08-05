@@ -29,7 +29,7 @@
 ## 🖼️ Imagens
 
 ### 🔳 Borda criada dinamicamente
-![Exemplo da borda](https://cdn.discordapp.com/attachments/1351646476996182038/1361041279324131489/3FEC1EBA-0AF6-4175-A86A-7EC04FDCCA57.png?ex=68924977&is=6890f7f7&hm=992c56f747016f4eb4f7e829b28b950fbc30e056f1c7af684a24230df1b0c397&)
+![Exemplo da borda]()
 
 ### 📏 Ajustando o tamanho
 ![Ajuste de raio](https://link-para-sua-imagem2.png)
