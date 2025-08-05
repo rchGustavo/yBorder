@@ -1,0 +1,11 @@
+name: yBorder
+version: '1.0.1'
+main: me.ylabui.yBorder.Main
+api-version: '1.21'
+authors: [ yLabui ]
+description: Plugin to create and configure the WorldBorder
+website: https://github.com/ylabui
+commands:
+  border:
+    description: Use to config border
+    usage: /border

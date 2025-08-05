@@ -1,0 +1,62 @@
+# ╔────────────────────────────────────────────────────────────────────────────╗
+# │  ___    ___ ________  ________  ________  ________  _______   ________     │
+# │ |\  \  /  /|\   __  \|\   __  \|\   __  \|\   ___ \|\  ___ \ |\   __  \    │
+# │ \ \  \/  / | \  \|\ /\ \  \|\  \ \  \|\  \ \  \_|\ \ \   __/|\ \  \|\  \   │
+# │  \ \    / / \ \   __  \ \  \\\  \ \   _  _\ \  \ \\ \ \  \_|/_\ \   _  _\  │
+# │   \/  /  /   \ \  \|\  \ \  \\\  \ \  \\  \\ \  \_\\ \ \  \_|\ \ \  \\  \| │
+# │ __/  / /      \ \_______\ \_______\ \__\\ _\\ \_______\ \_______\ \__\\ _\ │
+# │|\___/ /        \|_______|\|_______|\|__|\|__|\|_______|\|_______|\|__|\|__|│
+# │\|___|/                                                                     │
+# ╚────────────────────────────────────────────────────────────────────────────╝
+
+# yBorder v1.0.0
+
+#  INFOS DO CRIADOR E FORMAS DE CONTATO
+
+# Desenvolvedor: yLabui
+# Github: https://github.com/yLabui
+# Discord: labui
+# Contato: ylabui.contact@gmail.com
+# YouTube: https://www.youtube.com/@yLabuiDev
+# Meu servidor no Discord: https://discord.gg/huWzxKd8M2
+
+
+#  CONFIGURAÇÕES DO PLUGIN
+
+#  Aqui você define qual permissão será necessária para poder
+# utilizar todos os comandos do plugin. Lembrando que jogadores
+# com operador no servidor não precisarão da permissão, apenas
+# jogadores comuns sem OP.
+
+admin-permission: "border.admin"
+
+
+#  Não modifique nada na parte abaixo, ela serve para salvar as
+# barreiras que foram criadas, salvando o mundo e o tamanho das
+# bordas. Caso o servidor seja desligado ou algo do tipo, elas
+# continuarão salvas aqui. Para criar as barreiras utilize apenas
+# os comandos in-game!
+
+barrier:
+  world:
+    size:
+
+
+#  Abaixo você pode definir textos customizados para diferentes
+# ocasiões. Modifique como desejar e, no caso de outra língua,
+# você pode apenas traduzir os textos. Altere apenas os trechos
+# entre aspas duplas.
+
+messages:
+  not_permission: "&cBorder: Apenas OPERADORES podem executar este comando."
+  invalid_size: "&cBorder: Tamanho inválido! Informe um valor válido."
+  invalid_usage: "&cBorder: Uso incorreto do comando. Verifique a sintaxe."
+  border_set: "&aBorder: Borda definida para o tamanho &e%size%&a."
+  border_removed: "&cBorder: Borda removida com sucesso."
+  border_enter: "&cBorder: Você não pode ultrapassar os limites do mundo!"
+  border_update: "&aBorder: Borda atualizada! Novo tamanho: &e%size%&a."
+  not_border_found: "&cBorder: Nenhuma borda ativa encontrada neste mundo."
+  border_list: "&aMundo: &e%world% &a| Tamanho da borda: &e%size%"
+  world_have_border: "&cBorder: Este mundo já possui uma borda definida! Use /border update <novo_valor> para alterar."
+  world_not_have_border: "&cBorder: Este mundo não possui borda ativa no momento."
+  reload_sucess: "&aBorder: Configurações recarregadas com sucesso!"
