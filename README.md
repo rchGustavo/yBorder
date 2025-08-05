@@ -31,11 +31,11 @@
 
 ## 🖼️ Imagens
 
-### 🔳 Borda criada dinamicamente
+### Arquivo de Configuração
 ![Exemplo da borda]()
 
-### 📏 Ajustando o tamanho
-![Ajuste de raio](https://link-para-sua-imagem2.png)
+### Mensagens Customizadas
+![Ajuste de raio](https://cdn.discordapp.com/attachments/1402105484290560112/1402288436261552260/F89B81E4-4636-4277-BC10-9688C4279420.png?ex=68935e60&is=68920ce0&hm=efd4696cf59e539450f5b507ee9e7ebc213e31a1ac17a347616ee0be388e517a&)
 
 ---
 
