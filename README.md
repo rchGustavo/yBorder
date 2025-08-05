@@ -10,7 +10,7 @@
 - 🧭 Altere dinamicamente a posição e o tamanho da borda
 - 🛡️ Impede que jogadores ultrapassem os limites
 - 🎮 Comandos fáceis e intuitivos para operadores
-- 🔄 Compatível com múltiplas versões do Spigot (ex: 1.16+)
+- 🔄 Compatível com múltiplas versões do Spigot (ex: 1.21+)
 
 ---
 
@@ -29,7 +29,7 @@
 ## 🖼️ Imagens
 
 ### 🔳 Borda criada dinamicamente
-![Exemplo da borda](https://link-para-sua-imagem1.png)
+![Exemplo da borda](**https://link-para-sua-imagem1.png**)
 
 ### 📏 Ajustando o tamanho
 ![Ajuste de raio](https://link-para-sua-imagem2.png)
