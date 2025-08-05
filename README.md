@@ -20,7 +20,7 @@
 |--------|-----------|
 | `/border help` | Exibe a lista de comandos disponíveis |
 | `/border set <size>` | Cria a borda com a distância entre o jogador e a borda |
-| `/border cancel`     | Remove a borda atual do mundo |
+| `/border remove`     | Remove a borda atual do mundo |
 | `/border list`       | Mostra informações das bordas ativas |
 | `/border update <new size>`       | Define uma nova posição para a borda |
 | `/border reload`       | Recarrega os arquivos do plugin |
