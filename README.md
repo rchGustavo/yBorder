@@ -1,4 +1,4 @@
-# yBorder | Spigot Plugin
+# yBorder | Spigot/Paper Plugin
 
 **yBorder** é um plugin para servidores Spigot que cria e manipula bordas visuais no mundo Minecraft, baseado na posição do jogador. Ideal para servidores que querem controlar áreas acessíveis ou limitar regiões de forma visual e interativa.
 
