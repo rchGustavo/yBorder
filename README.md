@@ -4,17 +4,18 @@
 
 ---
 
-## ✨ Funcionalidades
+## Funcionalidades
 
-- 🔲 Cria bordas com base na localização do jogador
-- 🧭 Altere dinamicamente a posição e o tamanho da borda
-- 🛡️ Impede que jogadores ultrapassem os limites
-- 🎮 Comandos fáceis e intuitivos para operadores
-- 🔄 Compatível com versões mais recentes do Spigot (ex: 1.21+)
+-  Cria bordas com base na localização do jogador
+-  Altere dinamicamente a posição e o tamanho da borda
+-  Impede que jogadores ultrapassem os limites
+-  Caso se mova fora da borda o jogador é levado de volta para dentro dela
+-  Comandos fáceis e intuitivos para operadores
+-  Compatível com versões mais recentes do Spigot ou Paper (ex: 1.21+)
 
 ---
 
-## 💻 Comandos
+## Comandos
 
 | Comando | Descrição |
 |--------|-----------|
@@ -29,7 +30,7 @@
 
 ---
 
-## 🖼️ Imagens
+## Imagens
 
 ### Permissão Customizada
 ![Exemplo da borda](https://cdn.discordapp.com/attachments/1402105484290560112/1402288943818477661/87443D60-F5D9-4B8A-99FD-16EEBF24145E.png?ex=68935ed9&is=68920d59&hm=b12ac895046f93691b15b17b22509bcd893e3e8a0fe4eb116c1a31b4e1ae4dbe&)
@@ -39,14 +40,14 @@
 
 ---
 
-## 🎥 Vídeo demonstrativo
+## Vídeo demonstrativo
 
 > Assista uma demonstração do plugin funcionando:
 [![Demo do yBorder](https://img.youtube.com/vi/ID_DO_VIDEO/0.jpg)]([https://youtu.be/S_6UX0-Mqyw]))
 
 ---
 
-## 📦 Instalação
+## Instalação
 
 1. Baixe o plugin `yBorder.jar`
 2. Coloque em `plugins/` na pasta do seu servidor Spigot
@@ -55,20 +56,20 @@
 
 ---
 
-## 📌 Requisitos
+## Requisitos
 
 - ✅ Servidor Spigot/Paper (versão mínima recomendada: 1.21.0)
 - 🔧 Permissão de operador ou defina uma permissão no arquivo de config do plugin para usar os comandos
 
 ---
 
-## 🧠 Sobre
+## Sobre
 
 Criado por **[rchGustavo](https://github.com/rchGustavo)** com ❤️  
 Se você gostou do plugin, ⭐ dê uma estrela no repositório!
 
 ---
 
-## 📜 Licença
+## Licença
 
 Este projeto está licenciado sob a [MIT License](LICENSE).
