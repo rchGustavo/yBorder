@@ -27,8 +27,6 @@
 | `/border update <new size>`       | Define uma nova posição para a borda |
 | `/border reload`       | Recarrega os arquivos do plugin |
 
-> *Permissões podem ser adicionadas caso deseje controle mais refinado.*
-
 ---
 
 ## Imagens
