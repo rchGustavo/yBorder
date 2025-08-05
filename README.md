@@ -60,12 +60,6 @@
 
 ---
 
-## Requisitos
-
-- ✅ Servidor Spigot/Paper (versão mínima recomendada: 1.21.0)
-- 🔧 Permissão de operador ou defina uma permissão no arquivo de config do plugin para usar os comandos
-
----
 
 ## Sobre
 
