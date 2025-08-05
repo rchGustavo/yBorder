@@ -9,6 +9,7 @@
 -  Cria bordas com base na localização do jogador
 -  Altere dinamicamente a posição e o tamanho da borda
 -  Impede que jogadores ultrapassem os limites
+-  Só é possível criar uma borda por mundo
 -  Caso se mova fora da borda o jogador é levado de volta para dentro dela
 -  Explosões e EnderPearls não conseguem afetar o exterior da borda
 -  Comandos fáceis e intuitivos para operadores
