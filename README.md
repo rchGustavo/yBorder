@@ -63,7 +63,7 @@
 
 ## Sobre
 
-Criado por **[rchGustavo](https://github.com/rchGustavo)** com ❤️  
+Criado por **[rchGustavo](https://github.com/rchGustavo)** vulto (yLabui) com ❤️  
 Se você gostou do plugin, ⭐ dê uma estrela no repositório!
 
 ---
