@@ -10,6 +10,7 @@
 -  Altere dinamicamente a posição e o tamanho da borda
 -  Impede que jogadores ultrapassem os limites
 -  Caso se mova fora da borda o jogador é levado de volta para dentro dela
+-  Explosões e EnderPearls não conseguem afetar o exterior da borda
 -  Comandos fáceis e intuitivos para operadores
 -  Compatível com versões mais recentes do Spigot ou Paper (ex: 1.21+)
 
