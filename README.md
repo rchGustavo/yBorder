@@ -10,7 +10,7 @@
 - 🧭 Altere dinamicamente a posição e o tamanho da borda
 - 🛡️ Impede que jogadores ultrapassem os limites
 - 🎮 Comandos fáceis e intuitivos para operadores
-- 🔄 Compatível com múltiplas versões do Spigot (ex: 1.21+)
+- 🔄 Compatível com versões mais recentes do Spigot (ex: 1.21+)
 
 ---
 
@@ -18,9 +18,12 @@
 
 | Comando | Descrição |
 |--------|-----------|
-| `/yborder set <raio>` | Cria ou atualiza a borda com o raio desejado |
-| `/yborder remove`     | Remove a borda atual do jogador |
-| `/yborder info`       | Mostra informações da borda ativa |
+| `/border help` | Exibe a lista de comandos disponíveis |
+| `/border set <size>` | Cria a borda com a distância entre o jogador e a borda |
+| `/border cancel`     | Remove a borda atual do mundo |
+| `/border list`       | Mostra informações das bordas ativas |
+| `/border update <new size>`       | Define uma nova posição para a borda |
+| `/border reload`       | Recarrega os arquivos do plugin |
 
 > *Permissões podem ser adicionadas caso deseje controle mais refinado.*
 
