@@ -11,52 +11,68 @@
 
 # yBorder v1.0.0
 
-#  INFOS DO CRIADOR E FORMAS DE CONTATO
+#  CREATOR INFO AND CONTACT METHODS
 
-# Desenvolvedor: yLabui
-# Github: https://github.com/yLabui
+# Developer: yLabui
+# Github: https://github.com/rchGustavo
 # Discord: labui
-# Contato: ylabui.contact@gmail.com
+# Contact: ylabui.contact@gmail.com
 # YouTube: https://www.youtube.com/@yLabuiDev
-# Meu servidor no Discord: https://discord.gg/huWzxKd8M2
+# My Discord server: https://discord.gg/huWzxKd8M2
 
 
-#  CONFIGURAÇÕES DO PLUGIN
+#  PLUGIN CONFIGURATION
 
-#  Aqui você define qual permissão será necessária para poder
-# utilizar todos os comandos do plugin. Lembrando que jogadores
-# com operador no servidor não precisarão da permissão, apenas
-# jogadores comuns sem OP.
+#  Here you define the permission required to be able to use all plugin commands.
+# Keep in mind that server operators do not need the permission, only regular
+# non-OP players will require it.
 
 admin-permission: "border.admin"
 
 
-#  Não modifique nada na parte abaixo, ela serve para salvar as
-# barreiras que foram criadas, salvando o mundo e o tamanho das
-# bordas. Caso o servidor seja desligado ou algo do tipo, elas
-# continuarão salvas aqui. Para criar as barreiras utilize apenas
-# os comandos in-game!
+#  Do not modify anything below. This section is used to save
+# the barriers that were created, storing the world and the size
+# of the borders. If the server is shut down or restarted, they
+# will remain saved here. To create barriers, use only the in-game commands!
 
 barrier:
   world:
     size:
 
 
-#  Abaixo você pode definir textos customizados para diferentes
-# ocasiões. Modifique como desejar e, no caso de outra língua,
-# você pode apenas traduzir os textos. Altere apenas os trechos
-# entre aspas duplas.
+#  Below you can define custom messages for different situations.
+# Modify them as you wish and, in case of another language,
+# you can simply translate the texts. Only change the parts
+# inside the double quotes.
 
 messages:
-  not_permission: "&cBorder: Apenas OPERADORES podem executar este comando."
-  invalid_size: "&cBorder: Tamanho inválido! Informe um valor válido."
-  invalid_usage: "&cBorder: Uso incorreto do comando. Verifique a sintaxe."
-  border_set: "&aBorder: Borda definida para o tamanho &e%size%&a."
-  border_removed: "&cBorder: Borda removida com sucesso."
-  border_enter: "&cBorder: Você não pode ultrapassar os limites do mundo!"
-  border_update: "&aBorder: Borda atualizada! Novo tamanho: &e%size%&a."
-  not_border_found: "&cBorder: Nenhuma borda ativa encontrada neste mundo."
-  border_list: "&aMundo: &e%world% &a| Tamanho da borda: &e%size%"
-  world_have_border: "&cBorder: Este mundo já possui uma borda definida! Use /border update <novo_valor> para alterar."
-  world_not_have_border: "&cBorder: Este mundo não possui borda ativa no momento."
-  reload_sucess: "&aBorder: Configurações recarregadas com sucesso!"
+  # Errors and permissions
+  not_permission: "&cBorder: Only OPERATORS can execute this command."
+  invalid_usage: "&cBorder: Incorrect command usage. Check the syntax."
+  invalid_size: "&cBorder: Invalid size! Please enter a valid value."
+  invalid_format_time: "&cBorder: Invalid time format."
+  invalid_number_time: "&cBorder: Invalid number in time."
+  invalid_unit_time: "&cBorder: Invalid time unit. Use s, m, h, or d."
+  invalid_time: "&cBorder: Invalid time."
+
+  # Edge States
+  world_have_border: "&cBorder: This world already has a defined border! Use /border update <new_value> to change it."
+  world_not_have_border: "&cBorder: This world currently has no active border."
+  not_border_found: "&cBorder: No active border found in this world."
+
+  # Actions taken
+  border_set: "&aBorder: Border set to size &e%size%&a."
+  border_update: "&aBorder: Border updated! New size: &e%size%&a."
+  border_removed: "&cBorder: Border successfully removed."
+  border_removed_timed: "&cThe Border will be removed in: &e%time%&c."
+  border_removed_title: "§bThe Border"
+  border_removed_subtitle: "&cHas been removed"
+  border_enter: "&cBorder: You cannot cross the world boundaries!"
+  border_list: "&aWorld: &e%world% &a| Border size: &e%size%"
+  reload_sucess: "&aBorder: Configurations successfully reloaded!"
+
+  # Time Units
+  day_unit: "Day"
+  hour_unit: "Hour"
+  minute_unit: "Minute"
+  second_unit: "Second"
