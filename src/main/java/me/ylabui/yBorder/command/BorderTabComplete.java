@@ -21,7 +21,9 @@ public class BorderTabComplete implements TabCompleter {
         }
 
         if (args.length == 1) {
-            suggestions.addAll(Arrays.asList("set", "list", "cancel", "update", "reload"));
+            suggestions.addAll(Arrays.asList("set", "list", "remove", "update", "reload", "timed"));
+        } else if (args.length == 2 && args[0].equalsIgnoreCase("timed")) {
+            suggestions.addAll(Arrays.asList("remove"));
         }
         return suggestions;
     }
