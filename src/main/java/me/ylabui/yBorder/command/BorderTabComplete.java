@@ -20,6 +20,11 @@ public class BorderTabComplete implements TabCompleter {
             return suggestions;
         }
 
+        String perm = plugin.getCustomConfig().getString("admin-permission");
+        if (!(sender.isOp() || sender.hasPermission(perm))) {
+            return suggestions;
+        }
+
         if (args.length == 1) {
             suggestions.addAll(Arrays.asList("set", "list", "remove", "update", "reload", "timed"));
         } else if (args.length == 2 && args[0].equalsIgnoreCase("timed")) {
