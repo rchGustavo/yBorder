@@ -14,6 +14,7 @@
 -  Caso se mova fora da borda o jogador é levado de volta para dentro dela
 -  Explosões e EnderPearls não conseguem afetar o exterior da borda
 -  Comandos fáceis e intuitivos para operadores
+-  Remoção da borda com temporizador
 -  Compatível com versões mais recentes do Spigot ou Paper (ex: 1.21+)
 
 ---
@@ -25,6 +26,7 @@
 | `/border help` | Exibe a lista de comandos disponíveis |
 | `/border set <size>` | Cria a borda com a distância entre o jogador e a borda |
 | `/border remove`     | Remove a borda atual do mundo |
+| `/border timed remove <time>`     | Remove a borda atual do mundo após o tempo definido |
 | `/border list`       | Mostra informações das bordas ativas |
 | `/border update <new size>`       | Define uma nova posição para a borda |
 | `/border reload`       | Recarrega os arquivos do plugin |
