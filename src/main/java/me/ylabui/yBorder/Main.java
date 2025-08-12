@@ -14,9 +14,6 @@ import java.util.Map;
 
 public final class Main extends JavaPlugin {
 
-    //Teste de Git
-    //Teste Secundário
-
     private FileConfiguration config;
     private File configFile;
 
